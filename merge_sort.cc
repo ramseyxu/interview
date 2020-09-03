@@ -3,6 +3,14 @@
 #include <stdio.h>
 using namespace std;
 
+/*
+  Time complexity: N*M*logM + N*M*k*logN
+  number of shard is N
+  number of array in every shard is M
+  size of array is k
+
+*/
+
 class Merge_Sort{
  public:
   typedef vector<int> ARRAY;
